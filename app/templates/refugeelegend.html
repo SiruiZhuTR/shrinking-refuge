@@ -1,0 +1,47 @@
+<div class='legendContainer'>
+	<div class="legend-ital"><%= gettext('Hide/show') %></div>
+	<div class='dateTip'> 
+		<% 
+		if (t.data[0].displayDate){
+			print(t.data[0].displayDate)
+		}
+		if (t.data[0].category){
+			print(t.data[0].category)
+		}
+		if (!t.data[0].category && !t.data[0].displayDate){
+			print('<br>')
+		}%>
+	</div>
+	<div class="legend-items-holder">
+			<div class="legendItems">
+				<div class='circleTip line dashed' style='background-color:black;'></div>
+				<div class='circleTip line dashed' style='background-color:black;'></div>
+				<div class="legendInline">
+					<div class="nameTip">	Proposed ceiling</div>
+				</div>
+			</div>
+			
+		<% t.data.forEach(function(d){
+			if (d.displayName == "Ceilingtemp"){
+				return;
+			}
+		%>
+			
+			<div class="legendItems">
+				<div class='circleTip <%=t.self.chartType%>' style='background-color:<% print(t.self.colorScale(d.name))%>;'></div>
+				<div class="legendInline">
+					<div class="nameTip">	<%= d.displayName %></div>
+					<div class='valueTip'>
+						<% if (d[t.self.dataType]){
+							print(t.self.tipNumbFormat(d[t.self.dataType]))
+						}else{
+							print("<br>")
+						}%>
+					</div>
+				</div>
+			</div>
+		<%})%>
+
+		
+	</div>		
+</div>

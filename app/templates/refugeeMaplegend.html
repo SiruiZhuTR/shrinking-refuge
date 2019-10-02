@@ -1,0 +1,10 @@
+<div class="d-flex flex-wrap justify-content-center">
+	<% t.self.colorRange.forEach(function(d,i){%> 
+		<div class="d-flex map-legend-holder">
+			<div class="map-legend-square" style="background-color:<%=d%>;"></div>
+			<div class="map-legend-text"><%=t.self.scaleDisplay[i]%></div>
+		</div>
+	<%})%>
+</div>
+
+<div id="<%=t.self.targetDiv%>graphic"></div>

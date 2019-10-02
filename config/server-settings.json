@@ -1,0 +1,2759 @@
+{
+    "eventsUrl": "https://editdata.thomsonreuters.com/_int/events",
+    "serviceUrl": "https://editdata.thomsonreuters.com/gfx/_vti_bin/spx/esp/graphics.svc",
+    "site": "graphics",
+    "metadata": {
+        "graphic": {
+            "title": "Shrinking refuge",
+            "description": "President Donald Trump has slashed the refugee cap to the lowest level in decades, citing concerns about costs and national security.",
+            "byline": "Sirui Zhu",
+            "slugline": "USA-IMMIGRATION/REFUGEES",
+            "languageAbbr": {
+                "text": "en"
+            },
+            "topicCodes": [
+                {
+                    "mnemonic": "MTGFX"
+                }
+            ],
+            "tags": [
+                {
+                    "text": "Interactive"
+                }
+            ],
+            "changed": true,
+            "location": {
+                "id": 0,
+                "text": "USANY",
+                "codeId": "G:6S",
+                "codeType": 5,
+                "name": "New York"
+            },
+            "language": {
+                "id": 1,
+                "text": "English"
+            }
+        },
+        "editions": [
+            {
+                "editionName": "interactive",
+                "allowCatalog": true,
+                "repositories": [
+                    {
+                        "repositoryType": "Public",
+                        "publish": true
+                    }
+                ]
+            },
+            {
+                "editionName": "media-interactive",
+                "allowCatalog": true,
+                "repositories": [
+                    {
+                        "repositoryType": "Media",
+                        "publish": false
+                    }
+                ]
+            }
+        ]
+    },
+    "svc": {
+        "token": "77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+MMe1LnR8c2FmZXxhcGktNTY1MzU0M2QzYzZjNGZjNDhkYzlkMGZhYzdiYzk3ODYsMMe1LnR8c2FmZXxhcGktNTY1MzU0M2QzYzZjNGZjNDhkYzlkMGZhYzdiYzk3ODYsMTMyMTQ0ODgyNzg1MDAwMDAwLFRydWUsZlJsazdVbFlRamREQWNNdnFvZVUrQ2J0S0J6VytLUUYvZ21rdWMyRytWQ0JmWkVNRnphQjRZVWVDcDBIMm1rcHVKMENzcXJGV01JbHdZbHJZd2lpWGlCRzd6eFBCUmNEc28wY2grR014aU9GWFNpOHprb0paMllUNjVOYks4MVFBUTBkZ2xOdUI2VDdPSmlyaVordzZCbW0xTjNKZkt3b0tHK0Y4L0tPNmFqanpvSFNyTWNNREQvWEd6QnU0QzEvM2FCS1haY1N1a1lJb2JIWFRmUFAwM0JxeTJtVjYrdzN2SHUvVUNOdUpwRmRYcVZGMjFyUGFwZ2JaR1VwSDFnRm9wanlTT2oxRW1DTXhCbGY0T3NUWmE3YVJ4N1gyTVRId1gwUkxydDBMWEFwMldpVUd2QkZzMldMYkhjZkNPWmFvNFU1eTU1Q0hCb2phc1YrS1BiT0xnPT0saHR0cHM6Ly9lZGl0ZGF0YS50aG9tc29ucmV1dGVycy5jb20vPC9TUD4="
+    },
+    "config": {
+        "appMode": 1,
+        "dataSources": [
+            {
+                "author": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "created": "2016-04-02T17:11:23.000+00:00",
+                "id": 33,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 33,
+                    "text": "DataStream Data"
+                },
+                "modified": "2016-04-05T17:58:06.000+00:00",
+                "title": "DataStream Data",
+                "name": "DataStreamData",
+                "value": "{\"DataRequest\":{\"DataTypes\":[],\"Date\":{\"End\":\"\",\"Frequency\":\"D\",\"Kind\":1,\"Start\":\"\"},\"Instrument\":{\"Properties\":[{\"Key\":\"IsExpression\",\"Value\":false},{\"Key\":\"IsList\",\"Value\":false},{\"Key\":\"IsSymbolSet\",\"Value\":false},{\"Key\":\"ReturnName\",\"Value\":false},{\"Key\":\"ReturnCurrency\",\"Value\":false},{\"Key\":\"ReturnNoDates\",\"Value\":false}],\"Value\":\"\"},\"Tag\":null},\"Properties\":null,\"TokenValue\":null}",
+                "contentType": "application",
+                "dataSource": "ThomsonReuters.DataSources.DataStream",
+                "definition": "{\"formTemplate\":\"templates_dataFileDS\"}",
+                "extension": ".json",
+                "group": 1545,
+                "mediaContentType": "Json",
+                "mediaType": "Json",
+                "mimeType": "application/json",
+                "path": "/GetData",
+                "post": true
+            },
+            {
+                "author": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "created": "2016-04-02T17:13:04.000+00:00",
+                "id": 34,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 34,
+                    "text": "DataStream Bundle"
+                },
+                "modified": "2016-04-05T17:58:16.000+00:00",
+                "title": "DataStream Bundle",
+                "name": "DataStreamBundle",
+                "value": "{\"DataRequests\":[{\"DataTypes\":[],\"Date\":{\"End\":\"\",\"Frequency\":\"D\",\"Kind\":1,\"Start\":\"\"},\"Instrument\":{\"Properties\":[{\"Key\":\"IsExpression\",\"Value\":false},{\"Key\":\"IsList\",\"Value\":false},{\"Key\":\"IsSymbolSet\",\"Value\":false},{\"Key\":\"ReturnName\",\"Value\":false},{\"Key\":\"ReturnCurrency\",\"Value\":false},{\"Key\":\"ReturnNoDates\",\"Value\":false}],\"Value\":\"\"},\"Tag\":null}],\"Properties\":null,\"TokenValue\":null}",
+                "contentType": "application",
+                "dataSource": "ThomsonReuters.DataSources.DataStream",
+                "definition": "{\"formTemplate\":\"templates_dataFileDS\", \"isMulti\":true}",
+                "extension": ".json",
+                "group": 1545,
+                "mediaContentType": "Json",
+                "mediaType": "Json",
+                "mimeType": "application/json",
+                "path": "/GetDataBundle",
+                "post": true
+            }
+        ],
+        "defaultLanguage": {
+            "author": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "created": "2016-06-11T12:28:04.000+00:00",
+            "id": 1,
+            "lastEditor": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "lookupRef": {
+                "id": 1,
+                "text": "English"
+            },
+            "modified": "2016-06-11T12:28:04.000+00:00",
+            "title": "English",
+            "isoCode": "en"
+        },
+        "fileTypes": [
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:07.000+00:00",
+                "id": 1,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 1,
+                    "text": "Adobe Illustrator"
+                },
+                "modified": "2015-09-15T08:47:07.000+00:00",
+                "title": "Adobe Illustrator",
+                "extension": ".ai",
+                "fileType": "postscript",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Ai",
+                "mediaType": "application",
+                "mimeType": "application/postscript"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:07.000+00:00",
+                "id": 2,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 2,
+                    "text": "Pdf"
+                },
+                "modified": "2015-09-15T08:47:07.000+00:00",
+                "title": "Pdf",
+                "extension": ".pdf",
+                "fileType": "pdf",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Pdf",
+                "mediaType": "application",
+                "mimeType": "application/pdf"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 3,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 3,
+                    "text": "Eps"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Eps",
+                "extension": ".eps",
+                "fileType": "eps",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Eps",
+                "mediaType": "application",
+                "mimeType": "application/eps"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 4,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 4,
+                    "text": "Word Document"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Word Document",
+                "extension": ".doc",
+                "fileType": "msword",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Word",
+                "mediaType": "application",
+                "mimeType": "application/msword"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 5,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 5,
+                    "text": "Word Document"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Word Document",
+                "extension": ".docx",
+                "fileType": "vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Word",
+                "mediaType": "application",
+                "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 6,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 6,
+                    "text": "Excel Spreadsheet"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Excel Spreadsheet",
+                "extension": ".xls",
+                "fileType": "vnd.ms-excel",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Excel",
+                "mediaType": "application",
+                "mimeType": "application/vnd.ms-excel"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 7,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 7,
+                    "text": "Excel Spreadsheet"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Excel Spreadsheet",
+                "extension": ".xlsx",
+                "fileType": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Excel",
+                "mediaType": "application",
+                "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 8,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 8,
+                    "text": "PowerPoint Presentation"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "PowerPoint Presentation",
+                "extension": ".ppt",
+                "fileType": "vnd.ms-powerpoint",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "PowerPoint",
+                "mediaType": "application",
+                "mimeType": "application/vnd.ms-powerpoint"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 9,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 9,
+                    "text": "PowerPoint Presentation"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "PowerPoint Presentation",
+                "extension": ".pptx",
+                "fileType": "vnd.openxmlformats-officedocument.presentationml.presentation",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "PowerPoint",
+                "mediaType": "application",
+                "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:08.000+00:00",
+                "id": 10,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 10,
+                    "text": "Flash"
+                },
+                "modified": "2015-09-15T08:47:08.000+00:00",
+                "title": "Flash",
+                "extension": ".swf",
+                "fileType": "x-shockwave-flash",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Flash",
+                "mediaType": "application",
+                "mimeType": "application/x-shockwave-flash"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 11,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 11,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".jpe",
+                "fileType": "jpeg",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Jpeg",
+                "mediaType": "image",
+                "mimeType": "image/jpeg"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 12,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 12,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".jpg",
+                "fileType": "jpeg",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Jpeg",
+                "mediaType": "image",
+                "mimeType": "image/jpeg"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 13,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 13,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".jpeg",
+                "fileType": "jpeg",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Jpeg",
+                "mediaType": "image",
+                "mimeType": "image/jpeg"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 14,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 14,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".gif",
+                "fileType": "gif",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Gif",
+                "mediaType": "image",
+                "mimeType": "image/gif"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 15,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 15,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".bmp",
+                "fileType": "bmp",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Bmp",
+                "mediaType": "image",
+                "mimeType": "image/bmp"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 16,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 16,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Image",
+                "extension": ".png",
+                "fileType": "png",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Png",
+                "mediaType": "image",
+                "mimeType": "image/png"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 17,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 17,
+                    "text": "Svg Image"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Svg Image",
+                "extension": ".svg",
+                "fileType": "svg+xml",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Svg",
+                "mediaType": "image",
+                "mimeType": "image/svg+xml"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:09.000+00:00",
+                "id": 18,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 18,
+                    "text": "Html"
+                },
+                "modified": "2015-09-15T08:47:09.000+00:00",
+                "title": "Html",
+                "extension": ".htm",
+                "fileType": "html",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Html",
+                "mediaType": "text",
+                "mimeType": "text/html"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 19,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 19,
+                    "text": "Html"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Html",
+                "extension": ".html",
+                "fileType": "html",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Html",
+                "mediaType": "text",
+                "mimeType": "text/html"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 20,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 20,
+                    "text": "Data"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Data",
+                "extension": ".csv",
+                "fileType": "octet-stream",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Csv",
+                "mediaType": "application",
+                "mimeType": "application/octet-stream"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 21,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 21,
+                    "text": "Data"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Data",
+                "extension": ".tsv",
+                "fileType": "tab-separated-values",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Tsv",
+                "mediaType": "text",
+                "mimeType": "text/tab-separated-values"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 22,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 22,
+                    "text": "Transform"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Transform",
+                "extension": ".xslt",
+                "fileType": "xml",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Xsl",
+                "mediaType": "text",
+                "mimeType": "text/xml"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 23,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 23,
+                    "text": "Transform"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Transform",
+                "extension": ".xsl",
+                "fileType": "xml",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Xsl",
+                "mediaType": "text",
+                "mimeType": "text/xml"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 24,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 24,
+                    "text": "Data"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Data",
+                "extension": ".xml",
+                "fileType": "xml",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Xml",
+                "mediaType": "text",
+                "mimeType": "text/xml"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 25,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 25,
+                    "text": "Css"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Css",
+                "extension": ".css",
+                "fileType": "css",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Csv",
+                "mediaType": "text",
+                "mimeType": "text/css"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:10.000+00:00",
+                "id": 26,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 26,
+                    "text": "Text"
+                },
+                "modified": "2015-09-15T08:47:10.000+00:00",
+                "title": "Text",
+                "extension": ".txt",
+                "fileType": "plain",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Text",
+                "mediaType": "text",
+                "mimeType": "text/plain"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 27,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 27,
+                    "text": "JavaScript"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "JavaScript",
+                "extension": ".js",
+                "fileType": "x-javascript",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Js",
+                "mediaType": "application",
+                "mimeType": "application/x-javascript"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 28,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 28,
+                    "text": "Zip Package"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "Zip Package",
+                "extension": ".zip",
+                "fileType": "zip",
+                "isImage": false,
+                "isPackage": true,
+                "mediaContentType": "Package",
+                "mediaType": "application",
+                "mimeType": "application/zip"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 29,
+                "lastEditor": {
+                    "id": 1,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 29,
+                    "text": "Icon"
+                },
+                "modified": "2015-09-22T09:39:45.000+00:00",
+                "title": "Icon",
+                "extension": ".ico",
+                "fileType": "x-icon",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Icon",
+                "mediaType": "image",
+                "mimeType": "image/x-icon"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 30,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 30,
+                    "text": "Font"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "Font",
+                "extension": ".eot",
+                "fileType": "vnd.ms-fontobject",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Font",
+                "mediaType": "application",
+                "mimeType": "application/vnd.ms-fontobject"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 31,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 31,
+                    "text": "Font"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "Font",
+                "extension": ".ttf",
+                "fileType": "x-font-ttf",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Font",
+                "mediaType": "application",
+                "mimeType": "application/x-font-ttf"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 32,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 32,
+                    "text": "Font"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "Font",
+                "extension": ".woff",
+                "fileType": "x-font-woff",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Font",
+                "mediaType": "application",
+                "mimeType": "application/x-font-woff"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:11.000+00:00",
+                "id": 33,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 33,
+                    "text": "Font"
+                },
+                "modified": "2015-09-15T08:47:11.000+00:00",
+                "title": "Font",
+                "extension": ".woff2",
+                "fileType": "x-font-woff2",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Font",
+                "mediaType": "application",
+                "mimeType": "application/x-font-woff2"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 34,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 34,
+                    "text": "Font"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Font",
+                "extension": ".otf",
+                "fileType": "x-font-opentype",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Font",
+                "mediaType": "application",
+                "mimeType": "application/x-font-opentype"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 35,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 35,
+                    "text": "Css"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Css",
+                "extension": ".less",
+                "fileType": "css",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Less",
+                "mediaType": "text",
+                "mimeType": "text/css"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 36,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 36,
+                    "text": "Json"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Json",
+                "extension": ".json",
+                "fileType": "json",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Json",
+                "mediaType": "application",
+                "mimeType": "application/json"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 37,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 37,
+                    "text": "Css"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Css",
+                "extension": ".sass",
+                "fileType": "css",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Sass",
+                "mediaType": "text",
+                "mimeType": "text/css"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 38,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 38,
+                    "text": "Css"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Css",
+                "extension": ".scss",
+                "fileType": "css",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Sass",
+                "mediaType": "text",
+                "mimeType": "text/css"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 39,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 39,
+                    "text": "Video"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Video",
+                "extension": ".webm",
+                "fileType": "webm",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Webm",
+                "mediaType": "video",
+                "mimeType": "video/webm"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 40,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 40,
+                    "text": "Video"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Video",
+                "extension": ".ogg",
+                "fileType": "ogg",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Ogg",
+                "mediaType": "video",
+                "mimeType": "video/ogg"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:12.000+00:00",
+                "id": 41,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 41,
+                    "text": "Video"
+                },
+                "modified": "2015-09-15T08:47:12.000+00:00",
+                "title": "Video",
+                "extension": ".mp4",
+                "fileType": "mp4",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Mp4",
+                "mediaType": "video",
+                "mimeType": "video/mp4"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 42,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 42,
+                    "text": "Audio"
+                },
+                "modified": "2015-09-15T08:47:13.000+00:00",
+                "title": "Audio",
+                "extension": ".mp3",
+                "fileType": "mpeg",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Mpeg",
+                "mediaType": "audio",
+                "mimeType": "audio/mpeg"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 43,
+                "lastEditor": {
+                    "id": 1796,
+                    "text": "Dipak Varma",
+                    "name": "Dipak Varma"
+                },
+                "lookupRef": {
+                    "id": 43,
+                    "text": "Audio"
+                },
+                "modified": "2019-01-31T12:08:01.000+00:00",
+                "title": "Audio",
+                "extension": ".m4a",
+                "fileType": "mp4",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Mp4",
+                "mediaType": "audio",
+                "mimeType": "audio/mp4"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 44,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 44,
+                    "text": "Video"
+                },
+                "modified": "2015-09-15T08:47:13.000+00:00",
+                "title": "Video",
+                "extension": ".ogv",
+                "fileType": "ogv",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Ogv",
+                "mediaType": "video",
+                "mimeType": "video/ogv"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 45,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 45,
+                    "text": "Video"
+                },
+                "modified": "2015-09-15T08:47:13.000+00:00",
+                "title": "Video",
+                "extension": ".avi",
+                "fileType": "x-msvideo",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Avi",
+                "mediaType": "video",
+                "mimeType": "video/x-msvideo"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 46,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 46,
+                    "text": "Image"
+                },
+                "modified": "2015-09-15T08:47:13.000+00:00",
+                "title": "Image",
+                "extension": ".psd",
+                "fileType": "vnd.adobe.photoshop",
+                "isImage": true,
+                "isPackage": false,
+                "mediaContentType": "Psd",
+                "mediaType": "image",
+                "mimeType": "image/vnd.adobe.photoshop"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:13.000+00:00",
+                "id": 47,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 47,
+                    "text": "Flash"
+                },
+                "modified": "2015-09-15T08:47:13.000+00:00",
+                "title": "Flash",
+                "extension": ".fla",
+                "fileType": "octet-stream",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Fla",
+                "mediaType": "application",
+                "mimeType": "application/octet-stream"
+            },
+            {
+                "author": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "created": "2016-11-22T17:25:10.000+00:00",
+                "id": 48,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 48,
+                    "text": "Portable Object"
+                },
+                "modified": "2016-11-22T17:25:10.000+00:00",
+                "title": "Portable Object",
+                "extension": ".po",
+                "fileType": "x-gettext-translation",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Gettext",
+                "mediaType": "text",
+                "mimeType": "text/x-gettext-translation"
+            },
+            {
+                "author": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "created": "2016-11-22T20:00:16.000+00:00",
+                "id": 49,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 49,
+                    "text": "MarkDown"
+                },
+                "modified": "2016-11-22T20:00:16.000+00:00",
+                "title": "MarkDown",
+                "extension": ".md",
+                "fileType": "octet-stream",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "MarkDown",
+                "mediaType": "application",
+                "mimeType": "application/octet-stream"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2016-12-22T12:11:11.000+00:00",
+                "id": 51,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 51,
+                    "text": "Control File"
+                },
+                "modified": "2016-12-22T12:17:20.000+00:00",
+                "title": "Control File",
+                "extension": ".babelrc",
+                "fileType": "babelrc",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "babelrc",
+                "mediaType": "application",
+                "mimeType": "application/babelrc"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2016-12-22T12:14:08.000+00:00",
+                "id": 52,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 52,
+                    "text": "Control File"
+                },
+                "modified": "2016-12-22T12:17:28.000+00:00",
+                "title": "Control File",
+                "extension": ".bowerrc",
+                "fileType": "bowerrc",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "bowerrc",
+                "mediaType": "application",
+                "mimeType": "application/bowerrc"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2016-12-22T12:15:33.000+00:00",
+                "id": 53,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 53,
+                    "text": "Control File"
+                },
+                "modified": "2016-12-22T12:17:33.000+00:00",
+                "title": "Control File",
+                "extension": ".gitignore",
+                "fileType": "gitignore",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "gitignore",
+                "mediaType": "application",
+                "mimeType": "application/gitignore"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2016-12-22T12:17:10.000+00:00",
+                "id": 54,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 54,
+                    "text": "Application"
+                },
+                "modified": "2016-12-22T12:17:10.000+00:00",
+                "title": "Application",
+                "extension": ".sh",
+                "fileType": "sh",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "sh",
+                "mediaType": "application",
+                "mimeType": "application/sh"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2016-12-22T12:18:32.000+00:00",
+                "id": 55,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 55,
+                    "text": "Control File"
+                },
+                "modified": "2016-12-22T12:18:32.000+00:00",
+                "title": "Control File",
+                "extension": ".lock",
+                "fileType": null,
+                "ignore": true,
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "Application",
+                "mediaType": null,
+                "mimeType": null
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2017-03-09T17:22:49.000+00:00",
+                "id": 56,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 56,
+                    "text": "Video"
+                },
+                "modified": "2017-03-09T17:22:49.000+00:00",
+                "title": "Video",
+                "extension": ".m4v",
+                "fileType": "m4v",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "m4v",
+                "mediaType": "video",
+                "mimeType": "video/m4v"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2018-07-05T19:02:01.000+00:00",
+                "id": 57,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 57,
+                    "text": "Control File"
+                },
+                "modified": "2018-07-05T19:02:01.000+00:00",
+                "title": "Control File",
+                "extension": ".map",
+                "fileType": "map",
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "map",
+                "mediaType": "application",
+                "mimeType": "application/map"
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2019-03-12T18:27:20.000+00:00",
+                "id": 58,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 58,
+                    "text": "Application"
+                },
+                "modified": "2019-03-12T18:28:17.000+00:00",
+                "title": "Application",
+                "extension": ".log",
+                "fileType": null,
+                "ignore": true,
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": null,
+                "mediaType": null,
+                "mimeType": null
+            },
+            {
+                "author": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "created": "2019-06-18T20:09:24.000+00:00",
+                "id": 59,
+                "lastEditor": {
+                    "id": 27,
+                    "text": "Matthew Weber",
+                    "name": "Matthew Weber"
+                },
+                "lookupRef": {
+                    "id": 59,
+                    "text": "Mac OS filemanager"
+                },
+                "modified": "2019-06-18T20:25:41.000+00:00",
+                "title": "Mac OS filemanager",
+                "extension": ".ds_store",
+                "fileType": "octet-stream",
+                "ignore": true,
+                "isImage": false,
+                "isPackage": false,
+                "mediaContentType": "DS store",
+                "mediaType": "application",
+                "mimeType": "application/octet-stream"
+            }
+        ],
+        "languages": [
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:04.000+00:00",
+                "id": 1,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 1,
+                    "text": "English"
+                },
+                "modified": "2016-06-11T12:28:04.000+00:00",
+                "title": "English",
+                "isoCode": "en"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:04.000+00:00",
+                "id": 2,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 2,
+                    "text": "Arabic"
+                },
+                "modified": "2016-06-11T12:28:04.000+00:00",
+                "title": "Arabic",
+                "isoCode": "ar"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:04.000+00:00",
+                "id": 3,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 3,
+                    "text": "French"
+                },
+                "modified": "2016-06-11T12:28:04.000+00:00",
+                "title": "French",
+                "isoCode": "fr"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:04.000+00:00",
+                "id": 4,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 4,
+                    "text": "Spanish"
+                },
+                "modified": "2016-06-11T12:28:04.000+00:00",
+                "title": "Spanish",
+                "isoCode": "es"
+            }
+        ],
+        "newsplannerUrl": "https://emea.newsplanner.thomsonreuters.com/AddEventPage.aspx?token={token}",
+        "publishingRules": [
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:01.000+00:00",
+                "id": 37,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 37,
+                    "text": "Edition.MediaContentType.Text"
+                },
+                "modified": "2016-06-11T12:28:01.000+00:00",
+                "title": "Edition.MediaContentType.Text",
+                "name": "Rule:EPS Restriction",
+                "value": "Eps",
+                "destinations": [],
+                "repositoryTypes": [
+                    "Public",
+                    "Eikon"
+                ],
+                "ruleBehaviour": 4,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:01.000+00:00",
+                "id": 38,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 38,
+                    "text": "Edition.MediaContentType.Text"
+                },
+                "modified": "2016-06-11T12:28:01.000+00:00",
+                "title": "Edition.MediaContentType.Text",
+                "name": "Rule:EPS Require",
+                "value": "Eps",
+                "destinations": [
+                    "ZENGLI",
+                    "ZARABIC",
+                    "ZFRANC",
+                    "ZSPAIN"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 40,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 40,
+                    "text": "Edition.MediaContentType.Text"
+                },
+                "modified": "2016-06-11T12:28:02.000+00:00",
+                "title": "Edition.MediaContentType.Text",
+                "name": "Rule:Include Media Interactives",
+                "value": "Text",
+                "destinations": [
+                    "FINGX"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 1,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 41,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 41,
+                    "text": "Edition.EditionType"
+                },
+                "modified": "2016-06-11T12:28:02.000+00:00",
+                "title": "Edition.EditionType",
+                "name": "Rule:Require Packaged Interactives",
+                "value": "PackagedFileSet",
+                "destinations": [
+                    "FINGX"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 42,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 42,
+                    "text": "Edition.MultipleFiles"
+                },
+                "modified": "2016-06-11T12:28:02.000+00:00",
+                "title": "Edition.MultipleFiles",
+                "name": "Rule:Exclude MultiFiles",
+                "value": "True",
+                "destinations": [],
+                "repositoryTypes": [
+                    "Eikon"
+                ],
+                "ruleBehaviour": 4,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 43,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 43,
+                    "text": "Edition.MediaContentType.Text"
+                },
+                "modified": "2016-12-13T14:57:05.000+00:00",
+                "title": "Edition.MediaContentType.Text",
+                "name": "Rule:Exclude Text Files",
+                "value": "Text",
+                "destinations": [],
+                "repositoryTypes": [
+                    "Eikon",
+                    "Public"
+                ],
+                "ruleBehaviour": 4,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 44,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 44,
+                    "text": "Combined.LanguageCode"
+                },
+                "modified": "2016-06-11T12:28:02.000+00:00",
+                "title": "Combined.LanguageCode",
+                "name": "Rule:Require French",
+                "value": "fr",
+                "destinations": [
+                    "ZFRANC"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:02.000+00:00",
+                "id": 45,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 45,
+                    "text": "Combined.LanguageCode"
+                },
+                "modified": "2016-06-11T12:28:02.000+00:00",
+                "title": "Combined.LanguageCode",
+                "name": "Rule:Require Spanish",
+                "value": "es",
+                "destinations": [
+                    "ZSPAIN"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:03.000+00:00",
+                "id": 46,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 46,
+                    "text": "Combined.LanguageCode"
+                },
+                "modified": "2016-06-11T12:28:03.000+00:00",
+                "title": "Combined.LanguageCode",
+                "name": "Rule:Require Arabic",
+                "value": "ar",
+                "destinations": [
+                    "ZARABIC"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:03.000+00:00",
+                "id": 47,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 47,
+                    "text": "Combined.LanguageCode"
+                },
+                "modified": "2016-06-11T12:28:03.000+00:00",
+                "title": "Combined.LanguageCode",
+                "name": "Rule:Require English",
+                "value": "en",
+                "destinations": [
+                    "ZENGLI"
+                ],
+                "repositoryTypes": [
+                    "Media"
+                ],
+                "ruleBehaviour": 2,
+                "ruleType": 0
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2016-06-11T12:28:03.000+00:00",
+                "id": 48,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 48,
+                    "text": "Edition.EditionType"
+                },
+                "modified": "2016-06-11T12:28:03.000+00:00",
+                "title": "Edition.EditionType",
+                "name": "Rule:Restrict DataFile",
+                "value": "DataFile",
+                "destinations": [],
+                "repositoryTypes": [
+                    "Media",
+                    "Eikon"
+                ],
+                "ruleBehaviour": 4,
+                "ruleType": 0
+            }
+        ],
+        "repositories": [
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:06.000+00:00",
+                "id": 23,
+                "lastEditor": {
+                    "id": 1479,
+                    "text": "Seb Craft",
+                    "name": "Seb Craft"
+                },
+                "lookupRef": {
+                    "id": 23,
+                    "text": "Public Repository Publisher"
+                },
+                "modified": "2018-12-01T12:46:36.000+00:00",
+                "title": "Public Repository Publisher",
+                "name": "Public",
+                "value": null,
+                "allowFileSet": true,
+                "channels": [],
+                "defaultChannels": [],
+                "defaultDestinations": [],
+                "defaultProductCodes": [],
+                "destinations": [],
+                "eventMapping": [
+                    {
+                        "Key": "AkamaiUrl",
+                        "Value": "PublishedUrl"
+                    },
+                    {
+                        "Key": "PublicUrl",
+                        "Value": "PublishedUrl"
+                    }
+                ],
+                "expires": true,
+                "expiryCutOff": "2018-07-08T00:00:00.000+00:00",
+                "expiryPeriod": "P450D",
+                "group": 18,
+                "promotionLevel": 3,
+                "repositoryType": "Public",
+                "shadows": "None"
+            },
+            {
+                "author": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "created": "2015-09-15T08:47:06.000+00:00",
+                "id": 25,
+                "lastEditor": {
+                    "id": 1073741823,
+                    "text": "System Account",
+                    "name": "System Account"
+                },
+                "lookupRef": {
+                    "id": 25,
+                    "text": "Media Repository Publisher"
+                },
+                "modified": "2016-11-19T09:03:43.000+00:00",
+                "title": "Media Repository Publisher",
+                "name": "Media",
+                "value": null,
+                "allowFileSet": true,
+                "channels": [],
+                "defaultChannels": [
+                    "NGS"
+                ],
+                "defaultDestinations": [],
+                "defaultProductCodes": [],
+                "destinations": [
+                    "FINGX",
+                    "ZARABIC",
+                    "ZENGLI",
+                    "ZFRANC",
+                    "ZSPAIN"
+                ],
+                "eventMapping": [
+                    {
+                        "Key": "RcId",
+                        "Value": "PrimaryId"
+                    },
+                    {
+                        "Key": "RCUrl",
+                        "Value": "http://mediaexpress.reuters.com/detail/?id={Repository.VersionId}"
+                    },
+                    {
+                        "Key": "ReutersPicturesUrl",
+                        "Value": "http://pictures.reuters.com/archive/{Repository.IID}.html"
+                    }
+                ],
+                "group": 16,
+                "promotionLevel": 3,
+                "publishingData": "{\"defaultService\":\"RTR_NGS\", \"serviceMappings\":[{\"Key\":\"ZFRANC\",\"Value\":\"PARNGS\"},{\"Key\":\"ZARABIC\",\"Value\":\"ARNGS\"}],\"defaultLang\":\"en\", \"langMappings\":[{\"Key\":\"ZFRANC\",\"Value\":\"fr\"},{\"Key\":\"ZARABIC\",\"Value\":\"ar\"},{\"Key\":\"ZSPAIN\",\"Value\":\"es\"}]}",
+                "repositoryType": "Media",
+                "shadows": "None"
+            }
+        ],
+        "templates": [
+            {
+                "id": 2,
+                "text": "DataStream with edit link"
+            },
+            {
+                "id": 1,
+                "text": "Image"
+            }
+        ],
+        "title": "RNGS",
+        "user": {
+            "id": 2347,
+            "text": "Sirui Zhu API",
+            "groups": [
+                17,
+                16,
+                18,
+                7
+            ],
+            "level": 6,
+            "login": "i:0ǵ.t|safe|api-5653543d3c6c4fc48dc9d0fac7bc9786",
+            "name": "Sirui Zhu API"
+        }
+    },
+    "languages": {
+        "en": {
+            "author": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "created": "2016-06-11T12:28:04.000+00:00",
+            "id": 1,
+            "lastEditor": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "lookupRef": {
+                "id": 1,
+                "text": "English"
+            },
+            "modified": "2016-06-11T12:28:04.000+00:00",
+            "title": "English",
+            "isoCode": "en"
+        },
+        "ar": {
+            "author": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "created": "2016-06-11T12:28:04.000+00:00",
+            "id": 2,
+            "lastEditor": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "lookupRef": {
+                "id": 2,
+                "text": "Arabic"
+            },
+            "modified": "2016-06-11T12:28:04.000+00:00",
+            "title": "Arabic",
+            "isoCode": "ar"
+        },
+        "fr": {
+            "author": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "created": "2016-06-11T12:28:04.000+00:00",
+            "id": 3,
+            "lastEditor": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "lookupRef": {
+                "id": 3,
+                "text": "French"
+            },
+            "modified": "2016-06-11T12:28:04.000+00:00",
+            "title": "French",
+            "isoCode": "fr"
+        },
+        "es": {
+            "author": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "created": "2016-06-11T12:28:04.000+00:00",
+            "id": 4,
+            "lastEditor": {
+                "id": 1073741823,
+                "text": "System Account",
+                "name": "System Account"
+            },
+            "lookupRef": {
+                "id": 4,
+                "text": "Spanish"
+            },
+            "modified": "2016-06-11T12:28:04.000+00:00",
+            "title": "Spanish",
+            "isoCode": "es"
+        }
+    },
+    "language": {
+        "author": {
+            "id": 1073741823,
+            "text": "System Account",
+            "name": "System Account"
+        },
+        "created": "2016-06-11T12:28:04.000+00:00",
+        "id": 1,
+        "lastEditor": {
+            "id": 1073741823,
+            "text": "System Account",
+            "name": "System Account"
+        },
+        "lookupRef": {
+            "id": 1,
+            "text": "English"
+        },
+        "modified": "2016-06-11T12:28:04.000+00:00",
+        "title": "English",
+        "isoCode": "en"
+    },
+    "graphic": {
+        "author": {
+            "id": 2347,
+            "text": "Sirui Zhu API",
+            "name": "Sirui Zhu API"
+        },
+        "created": "2019-09-30T18:55:01.000+00:00",
+        "id": 2443,
+        "lastEditor": {
+            "id": 2347,
+            "text": "Sirui Zhu API",
+            "groups": [
+                17,
+                16,
+                18,
+                7
+            ],
+            "level": 6,
+            "login": "i:0ǵ.t|safe|api-5653543d3c6c4fc48dc9d0fac7bc9786",
+            "name": "Sirui Zhu API"
+        },
+        "lookupRef": {
+            "id": 2443,
+            "text": "Shrinking refuge"
+        },
+        "modified": "2019-10-01T20:11:27.000+00:00",
+        "title": "Shrinking refuge",
+        "workspace": "10",
+        "workspaceId": "53c7d248-9d14-4c37-b7a7-c12d86d94172",
+        "archived": false,
+        "byline": "Sirui Zhu",
+        "contact": [
+            {
+                "id": 2347,
+                "text": "Sirui Zhu API",
+                "name": "Sirui Zhu API"
+            }
+        ],
+        "deleteLevel": 0,
+        "description": "President Donald Trump has slashed the refugee cap to the lowest level in decades, citing concerns about costs and national security.",
+        "editions": [
+            {
+                "author": {
+                    "id": 2347,
+                    "text": "Sirui Zhu API",
+                    "name": "Sirui Zhu API"
+                },
+                "created": "2019-09-30T18:55:06.000+00:00",
+                "id": 1569,
+                "lastEditor": {
+                    "id": 2347,
+                    "text": "Sirui Zhu API",
+                    "groups": [
+                        17,
+                        16,
+                        18,
+                        7
+                    ],
+                    "level": 6,
+                    "login": "i:0ǵ.t|safe|api-5653543d3c6c4fc48dc9d0fac7bc9786",
+                    "name": "Sirui Zhu API"
+                },
+                "lookupRef": {
+                    "id": 1569,
+                    "text": "interactive"
+                },
+                "modified": "2019-10-01T20:11:27.000+00:00",
+                "title": "interactive",
+                "workspace": "10",
+                "workspaceId": "53c7d248-9d14-4c37-b7a7-c12d86d94172",
+                "allowCatalog": true,
+                "archived": false,
+                "contentType": "text",
+                "defaultFile": "index.html",
+                "deleteLevel": 0,
+                "editStatus": 0,
+                "editionId": "89825550-4c34-4dd6-b8d3-0e20a41802fc",
+                "editionName": "interactive",
+                "editionNamespace": "media-en.zip",
+                "editionSubType": 1,
+                "editionType": 1,
+                "editionUrl": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicStore/155a698d1d914a15b35cbc00e4b3c901_636CA282E9DC42A6AAB5F3A80E2AEEA5.zip",
+                "embargo": "2019-09-30T18:55:05.000+00:00",
+                "externalId": "0100B2DC1J1",
+                "files": [
+                    "favicon.ico",
+                    "index.html"
+                ],
+                "graphicId": "155a698d-1d91-4a15-b35c-bc00e4b3c901",
+                "height": 369,
+                "language": null,
+                "languageCode": null,
+                "mediaContentType": "Html",
+                "mediaType": "Html",
+                "metadataInherit": 0,
+                "mimeType": "text/html",
+                "previewImage": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_5B399134917B43ABBCEC2A31BFA34361_Preview.jpg",
+                "promotionLevel": 3,
+                "published": true,
+                "publishing": false,
+                "releaseNote": null,
+                "repositories": [
+                    {
+                        "author": {
+                            "id": 2347,
+                            "text": "Sirui Zhu API",
+                            "name": "Sirui Zhu API"
+                        },
+                        "created": "2019-09-30T18:55:09.000+00:00",
+                        "id": 1643,
+                        "lastEditor": {
+                            "id": 2347,
+                            "text": "Sirui Zhu API",
+                            "groups": [
+                                17,
+                                16,
+                                18,
+                                7
+                            ],
+                            "level": 6,
+                            "login": "i:0ǵ.t|safe|api-5653543d3c6c4fc48dc9d0fac7bc9786",
+                            "name": "Sirui Zhu API"
+                        },
+                        "lookupRef": {
+                            "id": 1643,
+                            "text": "Public"
+                        },
+                        "modified": "2019-10-01T20:11:26.000+00:00",
+                        "title": "Public",
+                        "workspace": "10",
+                        "workspaceId": "53c7d248-9d14-4c37-b7a7-c12d86d94172",
+                        "attempts": 0,
+                        "changed": false,
+                        "channels": [],
+                        "daysToExpiry": 450,
+                        "destinations": [],
+                        "editionId": "89825550-4c34-4dd6-b8d3-0e20a41802fc",
+                        "expires": true,
+                        "firstPublished": "2019-09-30T19:05:22.000+00:00",
+                        "graphicId": "155a698d-1d91-4a15-b35c-bc00e4b3c901",
+                        "previewImage": "https://graphics.reuters.com/USA-IMMIGRATION-REFUGEES/0100B2DC1J1/index.html_2.jpg",
+                        "priority": 4,
+                        "publish": true,
+                        "published": true,
+                        "publishedDate": "2019-10-01T19:28:49.000+00:00",
+                        "publishedUrl": "https://graphics.reuters.com/USA-IMMIGRATION-REFUGEES/0100B2DC1J1/index.html",
+                        "publishingData": "{\"EnforceFSIntegrity\":true,\"ftpFileName\":\"index.html\",\"ftpPath\":\"\\/gfx\\/rngs\\/USA-IMMIGRATION-REFUGEES\\/0100B2DC1J1\",\"pubPath\":\"\\/USA-IMMIGRATION-REFUGEES\\/0100B2DC1J1\"}",
+                        "repositoryId": "d8e5807c-7c93-4355-aca2-a319993b9bff",
+                        "repositoryType": "Public",
+                        "revision": 6,
+                        "shadows": "None",
+                        "shortenedUrl": "https://tmsnrt.rs/2nUK6N4",
+                        "status": 1,
+                        "thumbnail": "https://graphics.reuters.com/USA-IMMIGRATION-REFUGEES/0100B2DC1J1/index.html_1.jpg",
+                        "urgency": 4
+                    }
+                ],
+                "shadowRepositories": [],
+                "thumbnail": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_5B399134917B43ABBCEC2A31BFA34361_Thumbnail.jpg",
+                "useGraphicPreview": null,
+                "width": 773
+            },
+            {
+                "author": {
+                    "id": 2347,
+                    "text": "Sirui Zhu API",
+                    "name": "Sirui Zhu API"
+                },
+                "created": "2019-09-30T18:55:08.000+00:00",
+                "id": 1570,
+                "lastEditor": {
+                    "id": 2347,
+                    "text": "Sirui Zhu API",
+                    "groups": [
+                        17,
+                        16,
+                        18,
+                        7
+                    ],
+                    "level": 6,
+                    "login": "i:0ǵ.t|safe|api-5653543d3c6c4fc48dc9d0fac7bc9786",
+                    "name": "Sirui Zhu API"
+                },
+                "lookupRef": {
+                    "id": 1570,
+                    "text": "media-interactive"
+                },
+                "modified": "2019-10-01T20:11:27.000+00:00",
+                "title": "media-interactive",
+                "workspace": "10",
+                "workspaceId": "53c7d248-9d14-4c37-b7a7-c12d86d94172",
+                "allowCatalog": true,
+                "archived": false,
+                "contentType": "text",
+                "defaultFile": "readme.txt",
+                "deleteLevel": 2,
+                "editStatus": 0,
+                "editionId": "1b11947c-8a8b-4c1f-9232-4de3c10de65a",
+                "editionName": "media-interactive",
+                "editionNamespace": "media-en.zip",
+                "editionSubType": 1,
+                "editionType": 1,
+                "editionUrl": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicStore/155a698d1d914a15b35cbc00e4b3c901_636CA282E9DC42A6AAB5F3A80E2AEEA5.zip",
+                "embargo": "2019-09-30T18:55:07.000+00:00",
+                "externalId": "0100B2DC1J2",
+                "files": [
+                    "readme.txt"
+                ],
+                "graphicId": "155a698d-1d91-4a15-b35c-bc00e4b3c901",
+                "height": 369,
+                "language": null,
+                "languageCode": null,
+                "mediaContentType": "Text",
+                "mediaType": "Text",
+                "metadataInherit": 0,
+                "mimeType": "text/plain",
+                "previewImage": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_43A523083E084867861BE6C63CD98F7F_Preview.jpg",
+                "promotionLevel": 3,
+                "published": false,
+                "publishing": false,
+                "releaseNote": null,
+                "repositories": [
+                    {
+                        "workspace": null,
+                        "workspaceId": "00000000-0000-0000-0000-000000000000",
+                        "attempts": 0,
+                        "changed": false,
+                        "channels": [],
+                        "daysToExpiry": 0,
+                        "destinations": [],
+                        "expires": false,
+                        "priority": 4,
+                        "publish": null,
+                        "published": false,
+                        "repositoryType": "Media",
+                        "revision": 0,
+                        "shadows": "None",
+                        "status": 0,
+                        "urgency": 4
+                    }
+                ],
+                "shadowRepositories": [],
+                "thumbnail": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_43A523083E084867861BE6C63CD98F7F_Thumbnail.jpg",
+                "useGraphicPreview": null,
+                "width": 773
+            }
+        ],
+        "externalId": "0100B2DC",
+        "graphicId": "155a698d-1d91-4a15-b35c-bc00e4b3c901",
+        "language": {
+            "id": 1,
+            "text": "English"
+        },
+        "languageCode": {
+            "id": 1,
+            "text": "en"
+        },
+        "location": {
+            "id": 352,
+            "text": "USANY",
+            "codeType": 0
+        },
+        "locationPath": [
+            {
+                "id": 357,
+                "text": "Americas",
+                "additionalCodes": [],
+                "broader": [
+                    "M:1G7"
+                ],
+                "codeId": "G:2EP",
+                "codeType": 0,
+                "conceptType": "cptType:5",
+                "conceptTypeId": 5,
+                "facets": [
+                    "geoProp:3"
+                ],
+                "name": "Americas",
+                "propertiesLoaded": true,
+                "schema": "rcs"
+            },
+            {
+                "id": 37,
+                "text": "US",
+                "additionalCodes": [
+                    "G:4"
+                ],
+                "broader": [
+                    "M:A9",
+                    "G:AM",
+                    "G:AN",
+                    "G:9",
+                    "G:AQ",
+                    "G:AR",
+                    "G:AS",
+                    "G:2EP"
+                ],
+                "codeId": "G:6J",
+                "codeType": 0,
+                "conceptType": "cptType:5",
+                "conceptTypeId": 5,
+                "facets": [
+                    "geoProp:5"
+                ],
+                "mnemonic": "US",
+                "name": "United States",
+                "propertiesLoaded": true,
+                "schema": "rcs"
+            },
+            {
+                "id": 38,
+                "text": "AMERS",
+                "additionalCodes": [],
+                "broader": [
+                    "M:DH"
+                ],
+                "codeId": "G:4",
+                "codeType": 0,
+                "conceptType": "cptType:5",
+                "conceptTypeId": 5,
+                "facets": [
+                    "geoProp:3"
+                ],
+                "mnemonic": "AMERS",
+                "name": "Americas",
+                "propertiesLoaded": true,
+                "schema": "rcs"
+            }
+        ],
+        "minExpiry": "2020-12-24T00:00:00.000+00:00",
+        "previewImage": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_Preview.jpg",
+        "published": true,
+        "publishing": false,
+        "riCodes": [],
+        "slugline": "USA-IMMIGRATION/REFUGEES",
+        "tags": [
+            {
+                "id": "a77396fe-e768-4f8d-81d7-30fa6d9570ef",
+                "text": "interactive"
+            },
+            {
+                "id": "0e2a8bb3-fa8f-48de-8165-fccfe03ec5ce",
+                "text": "en"
+            },
+            {
+                "id": "fd6ba1ad-3b5b-4fb4-8fa9-015792cf0f80",
+                "text": "english"
+            },
+            {
+                "id": "b8f77125-e674-4ca9-b564-cf97d637f6e9",
+                "text": "PackagedFileSet"
+            },
+            {
+                "id": "70f4be1e-9f46-41fa-a4da-aa45bb2cc39c",
+                "text": "HTML"
+            },
+            {
+                "id": "99c247dd-8532-43d4-8f9f-83c30b61684c",
+                "text": "Text"
+            },
+            {
+                "id": "d3dfa1f5-8850-4780-b75b-919fb1d1ab31",
+                "text": "Public"
+            }
+        ],
+        "thumbnail": "https://editdata.thomsonreuters.com/gfx/rngs/10/GraphicRenditions/155a698d1d914a15b35cbc00e4b3c901_Thumbnail.jpg",
+        "topicCodes": [
+            {
+                "id": 2,
+                "text": "MTGFX",
+                "additionalCodes": [],
+                "broader": [],
+                "codeId": "M:NT",
+                "codeType": 0,
+                "conceptType": "cptType:40",
+                "conceptTypeId": 40,
+                "facets": [],
+                "mnemonic": "MTGFX",
+                "name": "Graphics",
+                "propertiesLoaded": true,
+                "schema": "rcs"
+            }
+        ],
+        "validated": 1
+    }
+}

@@ -1,0 +1,227 @@
+@import "variables";
+@import "fonts";
+
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
+@import "bower_components/sass-material-colors/sass/_sass-material-colors.scss";
+@import "bower_components/charter-commons/scss/color.scss";
+@import "bower_components/charter-commons/scss/chartstyles.scss";
+@import "bower_components/map-charter/scss/mapchartstyles.scss";
+// endbower
+
+//components
+@import "components/querry-strings";
+@import "components/utilities";
+@import "components/header";
+@import "components/footer";
+@import "components/special-report";
+@import "components/special-report-section";
+@import "components/type";
+@import "components/mastheads";
+@import "components/buttons";
+@import "components/images";
+@import "components/videos";
+@import "components/sidebars";
+@import "components/related";
+@import "components/ad";
+@import "components/share";
+@import "components/forms";
+@import "components/custom-forms";
+@import "components/navs";
+@import "components/dropdown";
+@import "components/no-ui-slider";
+@import "components/tooltip";
+@import "components/feature-page";
+@import "components/carousel";
+@import "components/popup-gallery";
+@import "components/other-stories";
+
+
+.main{
+    overflow-x: hidden;
+    padding-top:60px;
+}
+
+body{
+   // -webkit-font-smoothing: antialiased;
+    position: relative;
+    background: $body-background-color;
+//    background-color: transparent;
+	visibility: hidden;
+
+}
+
+.reuters-tooltip {
+    .nameTip{
+        width:80px;    
+    }   
+}
+
+.legendItems{
+	pointer-events: none !important;
+}
+
+.graphic-title {
+	font-size: 3.0rem;
+}
+
+
+.graphic-subhead {
+	font-size: 1.2rem;
+	line-height: 1.35;
+}
+
+.graphic-section-label {
+	font-weight: 600;
+	font-size: 1.6rem;
+	text-transform: none;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.graphic-chart-subhead {
+	font-size: 1.05rem;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+
+.graphic-chart-label {
+	font-size: 1.0rem;
+}
+
+.graphic-date {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	color: #333333;
+	
+}
+
+.separator {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 5px black solid;
+	width: 50px;
+}
+
+/*.map-legend-holder{
+	margin-right:15px;
+}
+
+.map-legend-square {
+	width: 10px;
+	height: 10px;
+	&.notsquare {
+		height:3px;
+		margin-top:4px;
+	}
+	&.black {
+		background-color: $black;
+	}
+	&.zero{
+		background-color:$red4;
+	}
+	&.first{
+		background-color:$red3;
+	}
+	&.second {
+		background-color:$red2;
+	}
+	&.third {
+		background-color:$red1;
+	}
+	&.gray {
+		background-color: $gray1;
+	}
+}
+
+.map-legend-text {
+	display:inline-block;
+	font-weight: 600;
+	line-height: 1.25;
+	padding-left: 5px;
+	margin-top: -3px;
+}
+
+.map-tooltip-statename {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.map-tooltip-category {
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin-top: 7px;
+}
+
+.map-tooltip-descriptor {
+	font-size: 0.9rem;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.25;
+	&.topspacer {
+		margin-top: 8px;
+	}	
+	&.bottomspacer {
+		margin-bottom: 8px;
+	}	
+}
+
+.map-tooltip-text {
+	font-size: 0.9rem;
+	font-weight: 600;
+	line-height: 1.35;	
+	&.bottomspacer {
+		margin-bottom: 8px;
+	}
+}*/
+
+/*#reutersGraphic-chart-immigration-refugee .annotation-note-label {
+	font-size: 0.75rem !important;
+	fill: $gray5;
+}*/
+
+.reuters-tooltip .circleTip {
+	margin-top: 5px;
+}
+
+
+.annotations {
+  text {
+    &.annotation-note-label {
+      fill: $gray5;
+    }
+    &.annotation-note-title {
+      fill: $gray5;
+    }
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  path {
+    &.subject {
+      stroke: black;
+      stroke-width: 0.5px;
+    }
+  }
+}
+
+
+#reutersGraphic-chart-immigration-refugeequotaCeilingtemp-line{
+	.area{
+		display:none !important;
+	}
+	.line{
+		border-style: dashed;
+		stroke-dasharray:3,6;
+	}
+	
+}
+.circleTip.line.dashed{
+	width:6px;
+	margin-right:3px !important;
+	margin-left:-3px !important;
+}

@@ -1,0 +1,22 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=iso-8859-1\n"
+
+msgid "language_id"
+msgstr "en"
+
+msgid "en"
+msgstr "en"
+
+msgid "share-image"
+msgstr "share-card.png"
+
+msgid "headline"
+msgstr "Shrinking refuge"
+
+msgid "description"
+msgstr ""
+"President Donald Trump has slashed the refugee cap to the lowest level in "
+"decades, citing concerns about costs and national security."
+
+msgid "page_url"
+msgstr "https://graphics.reuters.com/USA-IMMIGRATION-REFUGEES/0100B2DC1J1/"

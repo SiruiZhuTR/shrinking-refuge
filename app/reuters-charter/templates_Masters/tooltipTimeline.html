@@ -1,0 +1,12 @@
+<hr>
+<%t.data.forEach(function(d,i){%>
+	<div class="tip-Timeline-date text-uppercase">
+		<% print(t.self.timelineDateDisplay(d.parsedDate))%>
+	</div>
+	<div class="tip-Timeline">
+		<%=d.item%>
+	</div>
+
+	<%if (i != t.data.length-1){print('<br>')}%>
+
+<%})%> 

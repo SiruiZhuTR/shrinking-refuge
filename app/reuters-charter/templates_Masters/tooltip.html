@@ -1,0 +1,31 @@
+<%if (t.data[0].quarters){%>
+	<div class='dateTip'> <%=t.data[0].quarters%> <%=t.data[0].displayDate%> </div>
+<%}else if (t.data[0].displayDate){%>
+	<div class='dateTip'> <%=t.data[0].displayDate%> </div>
+<%}else{%>
+	<div class='dateTip'> <%=t.data[0].category%> </div>
+<%}%>
+<%if (t.self.xScaleColumn){%>
+	<div class='dateTip'> <%=t.data[0][t.self.xScaleColumn]%> </div>
+<%}%>
+
+<%t.data.forEach(function(d,i){%>
+		<div class="tipHolder">
+			<%if(t.data.length > 1){%>
+				<div class='circleTip <%=t.self.chartType%> <%if (t.self.chartLayout == "outlineBar" && i==1){%>outline<%}%>' style='background-color:<% print(t.self.colorScale(d.name))%>;'></div>
+				<div class='nameTip'><%=d.displayName%></div>
+			<%}%>
+			<div class='valueTip'>
+				<%if (t.self.chartLayout == "stackPercent"){%>
+					<%print(t.self.tipNumbFormat(d.y1Percent - d.y0Percent))%>				
+				<%}else{%>
+					<%print(t.self.tipNumbFormat(d[t.self.dataType]))%>				
+				<%}%>
+			</div>
+	
+		</div>
+<%})%>	
+<%if(t.self.timelineData){
+	var timelineData = t.self.timelineDataGrouped[t.self.timelineDate(t.data[0].date)]
+	print(t.self.timelineTemplate({data:timelineData, self:t.self}))
+}%>	

@@ -1,0 +1,61 @@
+<!-- <%if (t.data[0].quarters){%>
+	<div class='dateTip'> <%=t.data[0].quarters%> <%=t.data[0].displayDate%> </div>
+<%}else if (t.data[0].displayDate){%>
+	<div class='dateTip'> <%=t.data[0].displayDate%> </div>
+<%}else{%>
+	<div class='dateTip'> <%=t.data[0].category%> </div>
+<%}%>
+
+<%t.data.forEach(function(d,i){
+			if (d.displayName == "Ceilingtemp"){
+				return ;
+			}
+%>
+		<div class="tipHolder">
+			<%if(t.data.length > 1){%>
+				<div class='circleTip <%=t.self.chartType%>' style='background-color:<% print(t.self.colorScale(d.name))%>;'></div>
+				<div class='nameTip'><%=d.displayName%></div>
+			<%}%>
+			<div class='valueTip'>
+				<%
+					print(t.self.tipNumbFormat(d[t.self.dataType]))
+				%>
+			</div>
+	
+		</div>
+<%})%>	
+<%if(t.self.timelineData){
+	var timelineData = t.self.timelineDataGrouped[t.self.timelineDate(t.data[0].date)]
+	print(t.self.timelineTemplate({data:timelineData, self:t.self}))
+}%>	 -->
+
+<%if (t.data[0].quarters){%>
+	<div class='dateTip'> <%=t.data[0].quarters%> <%=t.data[0].displayDate%> </div>
+<%}else if (t.data[0].displayDate){%>
+	<div class='dateTip'> <%=t.data[0].displayDate%> </div>
+<%}else{%>
+	<div class='dateTip'> <%=t.data[0].category%> </div>
+<%}%>
+<!-- <%if (t.self.xScaleColumn){%>
+	<div class='dateTip'> <%=t.data[0][t.self.xScaleColumn]%> </div>
+<%}%> -->
+
+
+<%t.data.forEach(function(d,i){%>
+		<div class="tipHolder">
+			<%if(t.data.length > 1){%>
+				<div class='circleTip <%=t.self.chartType%>' style='background-color:<% print(t.self.colorScale(d.name))%>;'></div>
+				<div class='nameTip'><%=d.displayName%></div>
+			<%}%>
+			<div class='valueTip'>
+				<%
+					print(t.self.tipNumbFormat(d[t.self.dataType]))
+				%>
+			</div>
+	
+		</div>
+<%})%>	
+<%if(t.self.timelineData){
+	var timelineData = t.self.timelineDataGrouped[t.self.timelineDate(t.data[0].date)]
+	print(t.self.timelineTemplate({data:timelineData, self:t.self}))
+}%>	

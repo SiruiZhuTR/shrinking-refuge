@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals = 2; plural = (n !== 1);\n"
+
+msgid "people"
+msgstr ""
+
+msgid "numbers"
+msgstr ""
+
+msgid "Shrinking refuge"
+msgstr ""
+
+msgid "President Donald Trump has slashed the refugee cap to the lowest level in the history of the modern refugee program, citing concerns about costs and national security."
+msgstr ""
+
+msgid "PUBLISHED MAY 21, 2018"
+msgstr ""
+
+msgid "UPDATED OCT. 3, 2019"
+msgstr ""
+
+msgid "Refugee cap"
+msgstr ""
+
+msgid "The number of refugees admitted to the United States each fiscal year cannot exceed the ceiling set by the President, but there is no obligation to meet that level. For fiscal year 2017, Trump issued an executive order cutting the number of refugees admitted to the United States to 50,000, less than half the 110,000 former President Barack Obama had authorized. For fiscal year 2020, Trump has proposed a cap of 18,000, a 40% cut from the previous year and the lowest since the Refugee Act was signed into law in 1980. "
+msgstr ""
+
+msgid "NUMBER OF REFUGEES ADMITTED"
+msgstr ""
+
+msgid "Note: Data as of Aug. 31, 2019"
+msgstr ""
+
+msgid "Admissions slow to a trickle for some countries"
+msgstr ""
+
+msgid "Soon after taking office Trump issued an order banning most travel from a handful of several Muslim-majority countries. The ban was later modified and applied to Iran, Libya, Syria, Yemen, Somalia as well as North Korea and some government officials in Venezuela. The ban, which the U.S. Supreme Court allowed to take effect following legal challenges, has been in place since in Dec. 2017. While refugees are exempt from the ban, many refugees from the countries subject to the ban face additional security vetting. Before the ban was implemented, in FY2017, 28% of refugees arrivals were from the countries subject to travel restrictions compared to 3% in FY2019. "
+msgstr ""
+
+msgid "REFUGEES FROM COUNTRIES SUBJECT TO TRAVEL BAN"
+msgstr ""
+
+msgid "TOTAL MONTHLY REFUGEE ARRIVALS"
+msgstr ""
+
+msgid "Note: Data as of Sept. 20, 2019"
+msgstr ""
+
+msgid "Petitions for relatives"
+msgstr ""
+
+msgid "Families members waiting to rejoin relatives already resettled in the United States have fallen, as overall refugee admissions have declined. The number of approved refugee family reunification visas have dropped about 73% since FY2013. "
+msgstr ""
+
+msgid "REFUGEE RELATIVE PETITIONS"
+msgstr ""
+
+msgid "Note: 2019 data through the third quarter"
+msgstr ""
+
+msgid "Resettlement in the United States"
+msgstr ""
+
+msgid "Approximately 35 percent of the 8,635 refugees that have been admitted in fiscal year 2018 through April 30 have been resettled in Ohio, Texas, California, New York and Washington state."
+msgstr ""
+
+msgid "Note: Data excludes Special Immigrant Visa (SIV) recipients who have elected and received U.S. Refugee Admissions Program (USRAP) Reception and Placement (R&P) benefits."
+msgstr ""
+
+msgid "Sources: Refugee Processing Center; USCIS"
+msgstr ""
+
+msgid "By Christine Chan, Sirui Zhu and Ally J. Levine | REUTERS GRAPHICS"
+msgstr ""
+
+msgid "Total number of refugees"
+msgstr ""
+
+msgid "Hide/show"
+msgstr ""
+
+msgid "This is a translation"
+msgstr ""
+
+msgid "en"
+msgstr ""
+
+msgid "language_id"
+msgstr "en"
+
+msgid "share-image"
+msgstr "share-card.png"
+
+msgid "headline"
+msgstr "Shrinking refuge"
+
+msgid "description"
+msgstr "President Donald Trump has slashed the refugee cap to the lowest level in decades, citing concerns about costs and national security."
+
+msgid "page_url"
+msgstr "https://graphics.reuters.com/USA-IMMIGRATION-REFUGEES/0100B2DC1J1/"
